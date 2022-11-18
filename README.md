@@ -2,8 +2,8 @@
 
 ## Links
 
-- Solution URL: [repo]()
-- Live Site URL: [github pages]()
+- Solution URL: [repo](https://github.com/lukejans/3-column-preview-card-component)
+- Live Site URL: [github pages](https://lukejans.github.io/3-column-preview-card-component/)
 
 ## Author
 
