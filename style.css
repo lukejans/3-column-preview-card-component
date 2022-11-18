@@ -3,21 +3,56 @@
   padding: 0;
   border: 0;
 }
-
 body {
   box-sizing: border-box;
   font-family: 'Lexend Deca', sans-serif;
   color: hsla(0, 0%, 100%, 0.75);
   background-color: hsl(0, 0%, 95%);
 }
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  gap: 2rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.container section {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  gap: 2.25rem;
+  max-width: 14rem;
+}
+
+.icon {
+  width: 4rem;
+}
 
 .title {
   color: hsl(0, 0%, 95%);
+  font-size: 3rem;
   font-family: 'Big Shoulders Display', sans-serif;
+}
+.txt {
+  font-size: 1rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 2;
 }
 
 button {
   background-color: hsl(0, 0%, 95%);
+  width: 10rem;
+  margin-top: 5rem;
+  padding: 1rem 1.5rem;
+  border-radius: 5rem;
+  font-size: 1rem;
 }
 
 .btn1 {
@@ -33,11 +68,9 @@ button {
 .card1 {
   background-color: hsl(31, 77%, 52%);
 }
-
 .card2 {
   background-color: hsl(184, 100%, 22%);
 }
-
 .card3 {
   background-color: hsl(179, 100%, 13%);
 }
@@ -45,6 +78,7 @@ button {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: black;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
