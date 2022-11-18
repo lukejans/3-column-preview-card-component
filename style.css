@@ -28,11 +28,15 @@ body {
   flex-direction: column;
   padding: 4rem;
   gap: 2.25rem;
-  max-width: 14rem;
+  max-width: 224px;
+}
+main {
+  border-radius: 0.75rem;
+  max-height: 620px;
 }
 
 .icon {
-  width: 4rem;
+  width: 64px;
 }
 
 .title {
@@ -48,7 +52,7 @@ body {
 
 button {
   background-color: hsl(0, 0%, 95%);
-  width: 10rem;
+  width: 160px;
   margin-top: 5rem;
   padding: 1rem 1.5rem;
   border-radius: 5rem;
@@ -82,4 +86,21 @@ button {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 950px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    max-height: none;
+  }
+  button {
+    margin: 0;
+  }
+  .container section {
+    gap: 0.85rem;
+    padding: 3rem;
+  }
 }
